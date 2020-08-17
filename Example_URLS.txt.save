@@ -1,0 +1,21 @@
+http://localhost:8080/stocks/api/v1.0/createStock/[ticker symbol]
+http://codio_server/stocks/api/v1.0/createStock/AA
+\þ
+http://[hostname]/stocks/api/v1.0/getStock/[ticker symbol] 
+http://codio_server/stocks/api/v1.0/getStock/AA
+\
+http://[hostname]/stocks/api/v1.0/updateStock/[ticker symbol]
+http://codio_server/stocks/api/v1.0/updateStock/AA
+\
+http://[hostname]/stocks/api/v1.0/deleteStock/[ticker symbol] 
+http://codio_server/stocks/api/v1.0/deleteStock/AA 
+\
+http://[hostname]/stocks/api/v1.0/stockReport
+http://codio_server/stocks/api/v1.0/stockReport
+\
+http://[hostname]/stocks/api/v1.0/industryReport/[Industry]
+http://codio_server/stocks/api/v1.0/industryReport/telecom
+\
+http://[hostname]/stocks/api/v1.0/portfolio/[company name] 
+http://codio_server/stocks/api/v1.0/portfolio/AdventNet
+}

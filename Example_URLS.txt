@@ -1,0 +1,35 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 http://[hostname]/stocks/api/v1.0/createStock/[ticker symbol]\
+http://codio_server/stocks/api/v1.0/createStock/AA\
+\
+http://[hostname]/stocks/api/v1.0/getStock/[ticker symbol] \
+http://codio_server/stocks/api/v1.0/getStock/AA\
+\
+http://[hostname]/stocks/api/v1.0/updateStock/[ticker symbol]\
+http://codio_server/stocks/api/v1.0/updateStock/AA\
+\
+http://[hostname]/stocks/api/v1.0/deleteStock/[ticker symbol] \
+http://codio_server/stocks/api/v1.0/deleteStock/AA \
+\
+http://[hostname]/stocks/api/v1.0/stockReport\
+http://codio_server/stocks/api/v1.0/stockReport\
+\
+http://[hostname]/stocks/api/v1.0/industryReport/[Industry]\
+http://codio_server/stocks/api/v1.0/industryReport/telecom\
+\
+http://[hostname]/stocks/api/v1.0/portfolio/[company name] \
+http://codio_server/stocks/api/v1.0/portfolio/AdventNet\
+}
+
+
+EXAMPLE URLS
+
+READ
+curl http://localhost:8080/stocks/api/v1.0/getstock/AA
+
