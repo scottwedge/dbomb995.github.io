@@ -36,9 +36,9 @@ def create(input1):
             result = collection.insert_one(stringToJson(str(JSONinput())))
             return result
         except:
-            print("an error occured during creation please try again")
+            print("an error occurred during creation please try again")
             return ""
-    #if create() function is passed a non-null argument creats file based on input
+    #if create() function is passed a non-null argument creates file based on input
     else:
         result = collection.insert_one(input1)
         return result
@@ -54,7 +54,7 @@ def read(input1):
                 print (x)
             return result
         except:
-            print("an error occured during the read process please try again")
+            print("an error occurred during the read process please try again")
             return ""
     #if read() is called with a non-empty string searches for a file based on the passed parameters
     else:
@@ -79,7 +79,7 @@ def update(input1, input2):
             result = collection.update(oldData, newData)
             return result
         except:
-            print("an error occured during the update process please try again")
+            print("an error occurred during the update process please try again")
             return ""
     #if input1 and input2 both =1 then function asks for a ticker symbol to search for and update
     elif(input1 == "1" and input2 == "1"):
@@ -106,7 +106,7 @@ def delete(input1):
             result = collection.remove(stringToJson(str(JSONinput())))
             return result
         except:
-            print("an error occured during the deletion process please try again")
+            print("an error occurred during the deletion process please try again")
     #if input is = 1 then asks the user for a ticker symbol to search for and delete
     elif(input1 == ""):
         ticker = input("Please enter the ticker symbol of the entry you would like to delete: ")
