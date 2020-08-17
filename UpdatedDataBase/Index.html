@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone 3</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="function.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Milestone 4</h1>
+    </div>
+    <div class="main">
+        <p class = "Instructions" id = "Instructions"> </p>
+        <select name="options" id="options" onclick="instructionsDisplay();">
+            <option value = "" selected disabled hidden>Select Operation </option>
+            <option value="Create">Create</option>
+            <option value="Read"> Read</option>
+            <option value="Update"> Update</option>
+            <option value="Delete">Delete</option>
+        </select>
+        <input class = "JSON" type="text" id="JSON" placeholder="Input JSON formatted query">
+        <input type= "submit"  onclick="getOperationType();">
+        <p class = "JSONResults" id="JSONResults"> </p>
+    </div>      
+</body>
+</html>
